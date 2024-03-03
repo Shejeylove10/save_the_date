@@ -11,22 +11,27 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            min-height: 100vh; /* Ensure the entire viewport height is covered */
+        }
+        .invitation-card {
+            max-width: 400px; /* Adjust the maximum width as needed */
+            width: 100%;
+            text-align: center;
         }
         img {
             display: block;
-            margin-left: auto;
-            margin-right: auto;
-            height: 90vh;
-            width: 550px;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
         }
 
         .response-buttons {
             text-align: center;
+            margin-top: 20px; /* Adjust the margin as needed */
         }
 
         .response-buttons button {
             margin: 0 10px;
-            margin-top: 10px;
             padding: 10px 20px;
             font-size: 16px;
             border: none;
